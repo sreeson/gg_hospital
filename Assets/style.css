@@ -1,0 +1,150 @@
+.body{
+    /* font-family: ; */
+    position: relative;
+    display: inline-block;
+    padding-left: 300px;
+}
+
+.demo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 10px;
+    box-shadow: 10px 10px 10px 10px black;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.left{
+    width: 280px;
+    
+}
+
+.left-top{
+    display: block;
+    place-content: center;
+    background-color: black;
+}
+
+.just_here{
+    color: white;
+}
+
+.left-bottom{
+    background-color: #ebebeb;
+    color: black;
+}
+
+.right{
+    width: 320px;
+}
+
+.right-top{
+    height: 280px;
+    width: 350px;
+    background-color: #ebebeb;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+.right-bottom{
+    width: 350px;
+}
+
+img{
+    height: 380px;
+    width: 280px;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.imtag{
+    background-color: #ffc905;
+    color: black;
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: -15px;
+    margin-left: 1px;
+    border-radius: 4px;
+    width: 100px;
+    height: 20px;
+    padding-left: 10px;
+    padding-bottom: 28px;
+}
+
+.highlight{
+    width: 120px;
+    background-color: #ffc905;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+
+.halka{
+    padding-left: 50px;
+}
+
+.lorem{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.694);
+}
+
+.flex_some{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_some_more{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.high-2{
+    font-size: 16px;
+    width: 60px;
+    padding-left: 10px;
+    background-color: #ffc905;
+    border-radius: 3px;
+}
+
+.high-3{
+    font-size: 12px;
+    width: 60px;
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color: #ffc905;
+    border-radius: 3px;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_lil{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_lil-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.fuck_img{
+    background-color: #ffc905;
+    padding-left: 10px;
+    padding-right: 10px;
+}
