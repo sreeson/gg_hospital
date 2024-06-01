@@ -84,6 +84,7 @@ body {
 .btn1 {
   width: 310px;
   height: 50px;
+border: 1px solid black;
 }
 .book {
   width: 90%;
@@ -233,6 +234,7 @@ flex-direction: row;
 .footer-container{
   display: flex;
   justify-content:space-between;
+ 
 }
 .footer-logo{
   width: 300px;
